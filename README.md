@@ -3,6 +3,9 @@
 
  This is just the beginning as The Project is in BETA Phase, many more features will be added on in the future :)
 
+ Inspired by: Kaushik Shreshtha on Youtube
+ %https://youtu.be/V-hxJ1Wynr8
+
  # Some Current Features are:
  1. Location Checking
  2. Search on Google

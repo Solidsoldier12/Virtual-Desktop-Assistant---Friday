@@ -13,3 +13,9 @@
  7. Pulling search results from wikipedia
  8. Taking Screenshots, naming them and saving them as png files on Desktop
  9. A basic GUI made in Qt Designer containing START and STOP buttons
+
+# Friday.py
+This is the main executable python file that is responsible for executing the Assistant.
+
+# Friday_GUI.py
+This is the GUI file for the Assistant, it contains the code that makes up the Graphical User Interface of the Assistant.

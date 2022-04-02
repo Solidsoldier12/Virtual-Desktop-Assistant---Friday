@@ -74,15 +74,14 @@ class MainThread(QThread):
             query = self.takeCommand()
             if 'how are you' in query:
                 Speak('I am fine sir, how are you?')
+                
             elif 'the time' in query:
                 hours,minutes = int(datetime.datetime.now().strftime("%H")),datetime.datetime.now().strftime("%M")
                 if hours>12:
                     Speak(f"Sir, the time is {hours-12}:{minutes} PM")
                 else:
                     Speak(f"Sir, the time is {hours}:{minutes} AM")
-            elif 'bye' in query:
-                Speak('Bye Sir, see you later, you can call me anytime')
-                break
+
             elif ('open' in query or 'search' in query) and 'youtube' in query:
                 query = query.replace("friday","").replace("search","").replace("youtube","").replace("on","").replace("please","").replace("open","")
                 url = 'https://www.youtube.com/results?search_query=' + query

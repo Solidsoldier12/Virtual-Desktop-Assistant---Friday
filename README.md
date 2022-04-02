@@ -1,10 +1,11 @@
 # Virtual Desktop Assistant - Friday
- This is a Virtual Desktop Assistant named Friday, developed in python for performing some basic daily tasks on command. I developed this while learning some new python modules.
+This is a Virtual Desktop Assistant named Friday, developed in python for performing some basic daily tasks on command.
+I developed this while learning some new python modules.
 
- This is just the beginning as The Project is in BETA Phase, many more features will be added on in the future :)
+This is just the beginning as The Project is in BETA Phase, many more features will be added on in the future :)
 
- Inspired by: Kaushik Shreshtha on Youtube
- Assistant Working Demo by Kaushik Shrestha: https://youtu.be/V-hxJ1Wynr8
+Inspired by: Kaushik Shreshtha on Youtube
+Assistant Working Demo by Kaushik Shrestha: https://youtu.be/V-hxJ1Wynr8
 
  # Some Current Features are:
  1. Location Checking

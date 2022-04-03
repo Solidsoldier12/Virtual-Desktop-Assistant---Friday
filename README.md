@@ -6,6 +6,8 @@ This is just the beginning as The Project is in BETA Phase, many more features w
 
 Inspired by: Kaushik Shreshtha on Youtube
 
+My Recorded Demo: https://drive.google.com/file/d/1NJW0-sCF6ueoQA3uwkSFI7F8NAt1VpgC/view?usp=sharing
+
 Assistant Working Demo by Kaushik Shrestha: https://youtu.be/V-hxJ1Wynr8
 
  # Some Current Features are:

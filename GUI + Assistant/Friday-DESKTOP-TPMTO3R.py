@@ -76,7 +76,7 @@ class MainThread(QThread):
                 Speak('I am fine sir, how are you?')
                 
             elif 'the time' in query:
-                hours,minutes = int(datetime.datetime.now().strftime("%H")),datetime.datetime.now().strftime("%M")
+                hours, minutes = int(datetime.datetime.now().strftime("%H")), datetime.datetime.now().strftime("%M")
                 if hours>12:
                     Speak(f"Sir, the time is {hours-12}:{minutes} PM")
                 else:
@@ -121,9 +121,8 @@ class MainThread(QThread):
                 Speak('Screenshot Saved sir')
             else:
                 query = query.replace('friday', '')
-                if query != "None":
-                    pywhatkit.search(query)
-                    Speak(f' This is what I found on the internet about {query}')
+                pywhatkit.search(query)
+                Speak(f' This is what I found on the internet about {query}')
 
 startFunctions = MainThread()
 

@@ -1,3 +1,5 @@
+from sqlite3 import Time
+from time import time
 from Friday_GUI import Ui_Friday
 from PyQt5 import QtCore, QtWidgets, QtGui
 from PyQt5.QtGui import *
@@ -12,6 +14,8 @@ import pywhatkit
 import pyautogui
 import sys
 import requests
+import datetime
+from playsound import playsound
 
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
@@ -119,6 +123,18 @@ class MainThread(QThread):
                 name = self.takeCommand()
                 ss.save('D:\OneDrive - miet.ac.in\Pictures\Screenshots\\' + name + '.png')
                 Speak('Screenshot Saved sir')
+            #elif 'alarm' in query:
+            #    Speak('What time sir?')
+            #    time_value = self.takeCommand()
+            #    if(len(time_value) == 3):
+            #        #alarm_hours = int(time_value[0])
+            #        #alarm_minutes = int(time_value[1:])
+            #    Speak(f'Would you like to confirm an alarm for {alarm_hours}:{alarm_minutes}?')
+            #    while True:
+            #        Time_Ac = datetime.datetime.now()
+            #        now = Time_Ac.strftime("%H:%M:%S")
+            #        if now == time_value:
+            #            playsound("")
             else:
                 query = query.replace('friday', '')
                 if query != "None":
